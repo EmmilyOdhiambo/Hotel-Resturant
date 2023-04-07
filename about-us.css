@@ -1,0 +1,120 @@
+.about ul{
+    display: flex;
+    gap: 9%;
+    list-style: none;
+    color: black;
+}
+#padd{
+    width: 600px;
+    height: 400px;
+}
+.offers{
+    display: flex;
+    gap: 35%;
+    padding-left: 5%;
+}
+.food{
+    width: 20%;
+    height: 10%;
+    /* padding-bottom: 0px; */
+    background-color: beige; 
+    background-position: 20%;
+}
+.note{
+    text-align: center;
+    color: cornflowerblue;
+    display: flex;
+    padding-left: 45%;
+}
+.log{
+    padding: 1% 3%;
+    border-radius:0px 12px;
+    background-color: blue;
+    font-size: 20px;
+    gap: 5%;
+}
+.batton{
+    padding-left: 4%;
+    gap: 5%;
+}
+.table2{
+    padding: 30px;
+    display: flex;
+    gap: 30%;
+    padding-top: 5%;
+    background-color: azure;
+}
+.seemore{
+    padding-left: 68%;
+    padding-bottom: 10%;
+}
+.one{
+    display: flex;
+    gap: 10%;
+    padding-left: 3%;
+
+}
+.two{
+    display: flex;
+    gap: 10%;
+    padding-left: 3%;
+}
+.three{
+    display: flex;
+    padding-left: 3%;
+    gap: 10%;
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .about ul{
+        display: flex;
+        gap: 5%;
+        list-style: none;
+        color: black;
+    }
+    #padd{
+        width: 400px;
+        height: 300px;
+    }
+    .offers{
+        display: none;
+        gap: 25%;
+        padding-left: 4%;
+    }
+    
+    .food{
+        width: 15%;
+        height: 8%;
+        background-color: beige; 
+        background-position: 15%;
+    }
+
+
+ }
+ /* @media only screen and (min-width: 300px){
+    .about ul{
+        display: flex;
+        gap: 5%;
+        list-style: none;
+        color: black;
+    }
+    #padd{
+        width: 400px;
+        height: 300px;
+    }
+    .offers{
+        display: none;
+        gap: 25%;
+        padding-left: 4%;
+    }
+    
+    .food{
+        width: 15%;
+        height: 8%;
+        background-color: beige; 
+        background-position: 15%;
+    }
+
+ }  */
+ 
